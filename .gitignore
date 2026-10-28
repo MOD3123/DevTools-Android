@@ -1,0 +1,58 @@
+# ---- Build output ----
+build/
+/app/build/
+/app/release/
+out/
+bin/
+gen/
+.gradle/
+.kotlin/
+.cxx/
+.externalNativeBuild/
+captures/
+
+# ---- Built artifacts ----
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+*.apks
+
+# ---- Signing keys and secrets (NEVER commit) ----
+keystore.properties
+*.jks
+*.keystore
+*.pem
+*.p12
+secrets.properties
+google-services.json
+service-account*.json
+
+# ---- Local configuration ----
+local.properties
+
+# ---- IDE ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.navigation/
+.fleet/
+
+# ---- Logs and temp files ----
+*.log
+logs/
+hs_err_pid*
+temp_*
+debug_*
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Keep these (explicitly) ----
+!gradle/wrapper/gradle-wrapper.jar
+!gradle.properties
